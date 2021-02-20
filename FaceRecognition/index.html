@@ -1,0 +1,17 @@
+
+<html>
+  <head>
+    <title>Pi Video Surveillance</title>
+  </head>
+  <body>
+    <h1>Pi Video Surveillance</h1>
+    <button id="startAndStop">Start</button>
+    <video id="videoInput" width="320" height="240"></video>
+    <canvas id="canvasOutput" width="320" height="240"></canvas>
+    <div class="caption">videoInput</div>
+    <div class="caption">canvasOutput</div>
+    <script async type="text/javascript" th:src="@{/opencv/opencv.js}"></script>
+    <script async="" type="text/javascript" src="video.js"></script>
+    
+  </body>
+</html>
